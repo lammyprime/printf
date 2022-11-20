@@ -37,7 +37,6 @@ return (fns[i].func);
 i++;
 }
 }
-
 /* return Null if the format is null or the next char is not a specifier */
 return (NULL);
 }
