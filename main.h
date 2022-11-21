@@ -16,10 +16,10 @@
  */
 typedef struct print
 {
-	/* char *c: formats c, s, b, i, d, o, x, ... */
-	char *c;
-	/* A function that collects the variable list data and prints with it */
-	int (*func)(va_list);
+  /* char *c: formats c, s, b, i, d, o, x, ... */
+  char *c;
+  /* A function that collects the variable list data and prints with it */
+  int (*func)(va_list);
 } prn;
 
 int _putchar(char c);
